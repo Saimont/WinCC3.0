@@ -1,0 +1,1 @@
+C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\WinCC3.0.csproj;arm

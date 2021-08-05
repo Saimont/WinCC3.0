@@ -110,25 +110,31 @@ namespace WinCC3._0 {
                     var value = VisualTreeHelper.GetChild(page, i);
 
                     //Thread.Sleep(1000);
-                    if(value is Grid) {
+                    if(value is Grid && ((Grid)value).Name.Equals("outer")) {
                         Grid g = value as Grid;
                         for (int j = 0; j < g.Children.Count; j++) {
-                            var temp = g.Children.ElementAt(j);
-                            if(temp is Button) {
-                                Button btn = temp as Button;
-                                string posid = btn.Name.Remove(0, 1);
-                                int pos = 0;
+                            if(g.Children[j] is Grid && ((Grid)g.Children[j]).Name.Equals("buttons")) {
+                                Grid bgrid = g.Children[j] as Grid;
+                                for(int p = 0; p < bgrid.Children.Count; p++) {
+                                    var temp = bgrid.Children.ElementAt(p);
+                                    if (temp is Button) {
+                                        Button btn = temp as Button;
+                                        string posid = btn.Name.Remove(0, 1);
+                                        int pos = 0;
 
-                                pos = System.Convert.ToInt32(posid);
+                                        pos = System.Convert.ToInt32(posid);
 
-                                Position posi = ConveyorTransportSystem.GetInstance().Positions[pos];
-                                if (posi.Destination == 0)
-                                    btn.Background = new SolidColorBrush(Windows.UI.Colors.LightSlateGray);
-                                else if (posi.Destination == 1326)
-                                    btn.Background = new SolidColorBrush(Windows.UI.Colors.DarkSlateBlue);
-                                else
-                                    btn.Background = new SolidColorBrush(Windows.UI.Colors.Yellow);
+                                        Position posi = ConveyorTransportSystem.GetInstance().Positions[pos];
+                                        if (posi.Destination == 0)
+                                            btn.Background = new SolidColorBrush(Windows.UI.Colors.LightSlateGray);
+                                        else if (posi.Destination == 1326)
+                                            btn.Background = new SolidColorBrush(Windows.UI.Colors.DarkBlue);
+                                        else
+                                            btn.Background = new SolidColorBrush(Windows.UI.Colors.Yellow);
+                                    }
+                                }
                             }
+
                         }
                     }
                     if (value is Button) {

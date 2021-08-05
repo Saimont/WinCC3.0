@@ -26,8 +26,11 @@ namespace WinCC3._0
             this.InitializeComponent();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e) {
-            
+        private async void positionClicked(object sender, RoutedEventArgs e) {
+            String name = ((Button)sender).Name;
+            name = name.Remove(0, 1);
+
+           //TODO Implement popup for user input
         }
     }
 }

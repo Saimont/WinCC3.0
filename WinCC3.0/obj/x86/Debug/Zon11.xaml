@@ -1,8 +1,4 @@
-﻿
-    
-    
-    
-    <Page
+﻿<Page
        
     x:Class="WinCC3._0.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -14,38 +10,130 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Page.Resources>
-        <Style TargetType="Button">
+        <ResourceDictionary>
+            <Style x:Key="Pos" TargetType="Button">
+                <Setter Property="Background" Value="#FFA6A6A2"></Setter>
+                <Setter Property="Height" Value="40"></Setter>
+                <Setter Property="Width" Value="60"></Setter>
+                <Setter Property="BorderBrush" Value="Black"></Setter>
+                <Setter Property="CornerRadius" Value="2,2,2,2"></Setter>
+                <Setter Property="BorderThickness" Value="3,3,3,3"></Setter>
 
-        </Style>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Grid x:Name="RootGrid" Background="{TemplateBinding Background}">
+
+                                <VisualStateManager.VisualStateGroups>
+
+                                    <!--Define the states for the common states.
+              The states in the VisualStateGroup are mutually exclusive to
+              each other.-->
+                                    <VisualStateGroup x:Name="CommonStates">
+
+                                        <!--The Normal state is the state the button is in
+                when it is not in another state from this VisualStateGroup.-->
+                                        <VisualState x:Name="Normal">
+                                            <Storyboard>
+                                                <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
+                                            </Storyboard>
+                                        </VisualState>
+
+                                        <!--Change the SolidColorBrush, BorderBrush, to red when the
+                Pointer is over the button.-->
+                                        <VisualState x:Name="PointerOver">
+
+                                        </VisualState>
+
+                                        <!--Change the SolidColorBrush, BorderBrush, to Transparent when the
+                button is pressed.-->
+                                        <VisualState x:Name="Pressed">
+
+                                        </VisualState>
+
+                                        <!--The Disabled state is omitted for brevity.-->
+                                    </VisualStateGroup>
+
+                                </VisualStateManager.VisualStateGroups>
+                                <ContentPresenter x:Name="ContentPresenter"
+                                                  BorderBrush="{TemplateBinding BorderBrush}"
+                                                  BorderThickness="{TemplateBinding BorderThickness}"
+                                                  CornerRadius="{TemplateBinding CornerRadius}"
+                                                  Content="{TemplateBinding Content}"
+                                                  ContentTransitions="{TemplateBinding ContentTransitions}"
+                                                  ContentTemplate="{TemplateBinding ContentTemplate}"
+                                                  Padding="{TemplateBinding Padding}"
+                                                  HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                  VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
+                                                  AutomationProperties.AccessibilityView="Raw" />
+                            </Grid>
+                        </ControlTemplate>
+
+                    </Setter.Value>
+
+                </Setter>
+            </Style>
+
+            <Style x:Key="navButton" TargetType="Button">
+                <Setter Property="Background" Value="#FF232323"></Setter>
+                <Setter Property="Height" Value="60"></Setter>
+                <Setter Property="Width" Value="200"></Setter>
+                <Setter Property="BorderBrush" Value="##FFCDCDCD"></Setter>
+                <Setter Property="CornerRadius" Value="2,2,2,2"></Setter>
+                <Setter Property="BorderThickness" Value="3,3,3,3"></Setter>
+                <Setter Property="FontSize" Value="40"></Setter>
+                <Setter Property="FontWeight" Value="Bold"></Setter>
+                <Setter Property="Foreground" Value="#FFCDCDCD"></Setter>
+                <Setter Property="FontFamily" Value="Britannic Bold"></Setter>
+            </Style>
+        </ResourceDictionary>
+
+
     </Page.Resources>
 
-    <Grid>
-        <Rectangle HorizontalAlignment="Left" Height="45" Margin="253,692,0,0" Stroke="Black" VerticalAlignment="Top" Width="532" Fill="Black"/>
-        <Rectangle HorizontalAlignment="Left" Height="45" Margin="432,508,0,0" Stroke="Black" VerticalAlignment="Top" Width="816" Fill="Black"/>
-        <Rectangle HorizontalAlignment="Left" Height="45" Margin="432,312,0,0" Stroke="Black" VerticalAlignment="Top" Width="816" Fill="Black"/>
-        <Border BorderThickness="4,4,4,4" BorderBrush="Black" Height="320" Margin="1060,267,0,0" VerticalAlignment="Top" Width="320" HorizontalAlignment="Left"/>
-        <Border BorderThickness="16,4,16,4" BorderBrush="Black" Margin="783,530,0,0" Width="80" Height="185" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='2' x:Name="_1119" Content="" Margin="148,684,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1119" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5"/>
-        <Button x:ConnectionId='3' x:Name="_1120" Content="" Margin="290,684,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1120" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5"/>
-        <Button x:ConnectionId='4' x:Name="_1121" Content="" Margin="432,684,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1121" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5"/>
-        <Button x:ConnectionId='5' x:Name="_1122" Content="" Margin="595,684,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1122" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5"/>
-        <Button x:ConnectionId='6' x:Name="_1123" Content="" Margin="756,684,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1123" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5"/>
-        <Button x:ConnectionId='7' x:Name="_1111" Content="" Margin="355,500,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1111" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5"/>
-        <Button x:ConnectionId='8' x:Name="_1101" Content="" Margin="355,304,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1101" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5" UseSystemFocusVisuals="False"/>
-        <Button x:ConnectionId='9' x:Name="_1113" Content="" Margin="756,500,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1113" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5"/>
-        <Button x:ConnectionId='10' x:Name="_1112" Content="" Margin="595,500,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1112" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5"/>
-        <Button x:ConnectionId='11' x:Name="_1102" Content="" Margin="595,304,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1102" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5"/>
-        <Button x:ConnectionId='12' x:Name="_1103" Content="" Margin="756,304,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1103" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5"/>
-        <Button x:ConnectionId='13' x:Name="_1104" Content="" Margin="912,304,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1104" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5"/>
-        <Button x:ConnectionId='14' x:Name="_1114" Content="" Margin="912,500,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1114" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5"/>
-        <Button x:ConnectionId='15' x:Name="_1115" Content="" Margin="1078,500,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1115" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5"/>
-        <Button x:ConnectionId='16' x:Name="_1116" Content="" Margin="1223,500,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1116" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5"/>
-        <Button x:ConnectionId='17' x:Name="_1105" Margin="1078,304,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1105" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5"/>
-        <Button x:ConnectionId='18' x:Name="_1106" Margin="1223,305,0,0" VerticalAlignment="Top" Height="60" Width="130"                      Background="#FFA6A6A2" BorderBrush="#FF092C68" AutomationProperties.Name="1106" BackgroundSizing="OuterBorderEdge" CornerRadius="5,5,5,5"/>
-        <TextBlock x:ConnectionId='19' x:Name="textBlock" HorizontalAlignment="Left" Margin="1134,214,0,0" Text="Hissjävel" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" FontWeight="Bold" FontFamily="Arial Black"/>
-
-
-
+    <Grid x:ConnectionId='9' x:Name="outer" Background="#E43A3939">
+        <Grid x:ConnectionId='10' x:Name="cosmetics" Margin="300,50,50,50" RequestedTheme="Default" BorderBrush="Black" BorderThickness="2,2,2,2">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FD1F1F1F" Offset="0.02"/>
+                    <GradientStop Color="#FF1F1F1F" Offset="1"/>
+                    <GradientStop Color="#FFCDCDCD" Offset="0.329"/>
+                    <GradientStop Color="#FFA4A4A4" Offset="0.666"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Rectangle HorizontalAlignment="Left" Height="30" Margin="281,548,0,0" Stroke="Black" VerticalAlignment="Top" Width="320" Fill="Black"/>
+            <Rectangle HorizontalAlignment="Left" Height="30" Margin="396,435,0,0" Stroke="Black" VerticalAlignment="Top" Width="513" Fill="Black"/>
+            <Rectangle HorizontalAlignment="Left" Height="30" Margin="388,322,0,0" Stroke="Black" VerticalAlignment="Top" Width="498" Fill="Black"/>
+            <Border BorderThickness="4,4,4,4" BorderBrush="Black" Height="225" Margin="742,284,0,0" VerticalAlignment="Top" Width="192" HorizontalAlignment="Left"/>
+            <Border BorderThickness="12,1,12,1" BorderBrush="Black" Margin="579,452,0,0" Width="40" Height="94" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBlock x:ConnectionId='36' x:Name="textBlock" HorizontalAlignment="Left" Margin="768,222,0,0" Text="Hissjävel" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" FontWeight="Bold" FontFamily="Arial Black" Width="165" Height="50"/>
+        </Grid>
+        <Grid x:ConnectionId='11' x:Name="buttons" Margin="300,50,50,50">
+            <Button x:ConnectionId='19' x:Name="_1119" Content="" Margin="245,544,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1119" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+            <Button x:ConnectionId='20' x:Name="_1120" Content="" Margin="318,544,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1120" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+            <Button x:ConnectionId='21' x:Name="_1121" Content="" Margin="391,544,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1121" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+            <Button x:ConnectionId='22' x:Name="_1122" Content="" Margin="483,544,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1122" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+            <Button x:ConnectionId='23' x:Name="_1123" Content="" Margin="569,544,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1123" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+            <Button x:ConnectionId='24' x:Name="_1111" Content="" Margin="341,432,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1111" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+            <Button x:ConnectionId='25' x:Name="_1101" Content="" Margin="341,316,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1101" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+            <Button x:ConnectionId='26' x:Name="_1113" Content="" Margin="569,432,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1113" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+            <Button x:ConnectionId='27' x:Name="_1112" Content="" Margin="483,432,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1112" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+            <Button x:ConnectionId='28' x:Name="_1102" Content="" Margin="483,316,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1102" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+            <Button x:ConnectionId='29' x:Name="_1103" Content="" Margin="569,316,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1103" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+            <Button x:ConnectionId='30' x:Name="_1104" Content="" Margin="647,316,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1104" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+            <Button x:ConnectionId='31' x:Name="_1114" Content="" Margin="647,432,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1114" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+            <Button x:ConnectionId='32' x:Name="_1115" Content="" Margin="773,432,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1115" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+            <Button x:ConnectionId='33' x:Name="_1116" Content="" Margin="852,432,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1116" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+            <Button x:ConnectionId='34' x:Name="_1105" Content="" Margin="773,316,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1105" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+            <Button x:ConnectionId='35' x:Name="_1106" Content="" Margin="852,316,0,0" VerticalAlignment="Top"                         AutomationProperties.Name="1106" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
+        </Grid>
+        <Button x:ConnectionId='12' x:Name="plc1" Content="PLC 1" Margin="50,50,0,0" VerticalAlignment="Top" Style="{StaticResource navButton}"/>
+        <Button x:ConnectionId='13' x:Name="plc2" Content="PLC 2" Margin="50,123,0,0" VerticalAlignment="Top" Style="{StaticResource navButton}"/>
+        <Button x:ConnectionId='14' x:Name="plc3" Content="PLC 3" Margin="50,194,0,0" VerticalAlignment="Top" Style="{StaticResource navButton}"/>
+        <Button x:ConnectionId='15' x:Name="zon12" Content="Zon 12" Margin="50,287,0,0" VerticalAlignment="Top" Style="{StaticResource navButton}"/>
+        <Button x:ConnectionId='16' x:Name="zon13" Content="Zon 13" Margin="50,360,0,0" VerticalAlignment="Top" Style="{StaticResource navButton}"/>
+        <Button x:ConnectionId='17' x:Name="zon14" Content="Zon 14" Margin="50,433,0,0" VerticalAlignment="Top" Style="{StaticResource navButton}"/>
+        <Button x:ConnectionId='18' x:Name="zon15" Content="Zon 15" Margin="50,506,0,0" VerticalAlignment="Top" Style="{StaticResource navButton}"/>
     </Grid>
 </Page>
 
