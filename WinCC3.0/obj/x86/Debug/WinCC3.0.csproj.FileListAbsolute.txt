@@ -92,3 +92,13 @@ C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\qua
 C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424743200000000.json
+C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\PositionClickedPopup.g.i.cs
+C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\PositionClickedPopup.g.cs
+C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\PositionClickedPopup.xaml
+C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\PositionClickedPopup.xbf
+C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\bin\x86\Debug\PositionClickedPopup.xbf
+C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon12.g.i.cs
+C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon12.g.cs
+C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon12.xaml
+C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon12.xbf
+C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\bin\x86\Debug\Zon12.xbf

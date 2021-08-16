@@ -45,22 +45,10 @@ namespace WinCC3._0 {
                     //TODO IMPLEMENT ERROR HANDING IF CONNECTION FAILS
                     return null;
                 }
-
-                /*S7MultiVar reader = new S7MultiVar(plc1);
-
-                reader.Add(S7Consts.S7AreaDB, S7Consts.S7WLByte, db, 0, 1024, ref data);
-                int result = reader.Read();
-                if(result != 0) {
-                    Console.WriteLine("Error: " + plc1.ErrorText(result));
-                    Application.Exit();
-                    return null;
-                }*/
-
                 return data;
             }
             return null;
         }
-
         public bool Connect() {
             plc1 = new S7Client();
             plc1.SetConnectionType(0x02);
