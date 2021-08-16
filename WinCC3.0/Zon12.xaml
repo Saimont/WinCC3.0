@@ -164,7 +164,7 @@
             <Border BorderThickness="4,4,4,4" BorderBrush="Black" Height="225" Margin="50,277,0,0" VerticalAlignment="Top" Width="192" HorizontalAlignment="Left"/>
             <Border BorderThickness="12,1,12,1" BorderBrush="Black" Margin="387,342,0,0" Width="40" Height="89" HorizontalAlignment="Left" VerticalAlignment="Top"/>
             <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="67,227,0,0" Text="Hissjävel" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" FontWeight="Bold" FontFamily="Arial Black" Width="165" Height="50"/>
-            <TextBlock HorizontalAlignment="Center" Margin="0,30,0,0" Text="Zon 12" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="45" FontWeight="Bold" FontStyle="Normal" TextDecorations="None"/>
+            <TextBlock HorizontalAlignment="Center" Margin="0,15,0,0" Text="Zon 12" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="45" FontWeight="Bold" FontStyle="Normal" TextDecorations="None"/>
         </Grid>
         <Grid x:Name="buttons" Margin="300,50,50,50">
             <Button x:Name="_1212" Content="" Margin="318,412,0,0" VerticalAlignment="Top" Click="positionClicked" AutomationProperties.Name="1119" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>
@@ -202,8 +202,8 @@
         <Button Template="{StaticResource ButtonTemplate1}" x:Name="plc1" Content="PLC 1" Margin="50,50,0,0" VerticalAlignment="Top" Style="{StaticResource navButton}"/>
         <Button Template="{StaticResource ButtonTemplate1}" x:Name="plc2" Content="PLC 2" Margin="50,123,0,0" VerticalAlignment="Top" Style="{StaticResource navButton}"/>
         <Button Template="{StaticResource ButtonTemplate1}" x:Name="plc3" Content="PLC 3" Margin="50,194,0,0" VerticalAlignment="Top" Style="{StaticResource navButton}"/>
-        <Button Template="{StaticResource ButtonTemplate1}" x:Name="zon11" Content="Zon 11" Margin="50,287,0,0" VerticalAlignment="Top" Style="{StaticResource navButton}"/>
-        <Button Template="{StaticResource ButtonTemplate1}" x:Name="zon13" Content="Zon 13" Margin="50,360,0,0" VerticalAlignment="Top" Style="{StaticResource navButton}"/>
+        <Button Template="{StaticResource ButtonTemplate1}" x:Name="zon11" Content="Zon 11" Margin="50,287,0,0" VerticalAlignment="Top" Style="{StaticResource navButton}" Click="zon11_Click"/>
+        <Button Template="{StaticResource ButtonTemplate1}" x:Name="zon13" Content="Zon 13" Margin="50,360,0,0" VerticalAlignment="Top" Style="{StaticResource navButton}" Click="zon13_Click"/>
         <Button Template="{StaticResource ButtonTemplate1}" x:Name="zon14" Content="Zon 14" Margin="50,433,0,0" VerticalAlignment="Top" Style="{StaticResource navButton}"/>
         <Button Template="{StaticResource ButtonTemplate1}" x:Name="zon15" Content="Zon 15" Margin="50,506,0,0" VerticalAlignment="Top" Style="{StaticResource navButton}"/>
 

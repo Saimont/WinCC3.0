@@ -125,7 +125,58 @@ namespace WinCC3._0 {
             trams(1232, b);
             trams(1233, b);
             trams(1234, b);
-            
+
+            trams(1301, b);
+            trams(1302, b);
+            trams(1303, b);
+            trams(1304, b);
+            trams(1304, b);
+            trams(1305, b);
+            trams(1306, b);
+            trams(1307, b);
+            trams(1308, b);
+            trams(1309, b);
+            trams(1311, b);
+            trams(1312, b);
+            trams(1313, b);
+            trams(1314, b);
+            trams(1315, b);
+            trams(1316, b);
+            trams(1320, b);
+            trams(1321, b);
+            trams(1322, b);
+            trams(1323, b);
+            trams(1324, b);
+            trams(1325, b);
+            trams(1326, b);
+            trams(1327, b);
+            trams(1328, b);
+            trams(1329, b);
+            trams(1330, b);
+            trams(1331, b);
+            trams(1340, b);
+            trams(1341, b);
+            trams(1342, b);
+            trams(1343, b);
+            trams(1344, b);
+            trams(1351, b);
+            trams(1352, b);
+            trams(1353, b);
+            trams(1354, b);
+            trams(1360, b);
+            trams(1361, b);
+            trams(1362, b);
+            trams(1363, b);
+            trams(1364, b);
+            trams(1365, b);
+            trams(1370, b);
+            trams(1371, b);
+            trams(1372, b);
+            trams(1373, b);
+            trams(1374, b);
+            trams(1375, b);
+            trams(1376, b);
+
 
 
             await CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () => {

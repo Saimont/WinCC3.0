@@ -267,5 +267,6 @@
     </RootType>
     <RootType FullName="WinCC3._0.MainPage" />
     <RootType FullName="WinCC3._0.Zon12" />
+    <RootType FullName="WinCC3._0.Zon13" />
   </Roots.RootTypes>
 </Roots>

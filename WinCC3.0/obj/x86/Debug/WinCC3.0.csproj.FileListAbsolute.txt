@@ -102,3 +102,8 @@ C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon
 C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon12.xaml
 C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon12.xbf
 C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\bin\x86\Debug\Zon12.xbf
+C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon13.g.i.cs
+C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon13.g.cs
+C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon13.xaml
+C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon13.xbf
+C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\bin\x86\Debug\Zon13.xbf

@@ -167,7 +167,7 @@
             <Border BorderThickness="4,4,4,4" BorderBrush="Black" Height="225" Margin="742,284,0,0" VerticalAlignment="Top" Width="192" HorizontalAlignment="Left"/>
             <Border BorderThickness="12,1,12,1" BorderBrush="Black" Margin="579,452,0,0" Width="40" Height="94" HorizontalAlignment="Left" VerticalAlignment="Top"/>
             <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="768,222,0,0" Text="Hissjävel" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" FontWeight="Bold" FontFamily="Arial Black" Width="165" Height="50"/>
-            <TextBlock HorizontalAlignment="Center" Margin="0,30,0,0" Text="Zon 11" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="45" FontWeight="Bold" FontStyle="Normal" TextDecorations="None"/>
+            <TextBlock HorizontalAlignment="Center" Margin="0,15,0,0" Text="Zon 11" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="45" FontWeight="Bold" FontStyle="Normal" TextDecorations="None"/>
         </Grid>
         <Grid x:Name="buttons" Margin="300,50,50,50">
             <Button x:Name="_1119" Content="" Margin="245,544,0,0" VerticalAlignment="Top" Click="positionClicked" AutomationProperties.Name="1119" BackgroundSizing="OuterBorderEdge" Style="{StaticResource Pos}"/>

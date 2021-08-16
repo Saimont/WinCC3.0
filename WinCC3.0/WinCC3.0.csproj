@@ -140,6 +140,9 @@
     <Compile Include="Zon12.xaml.cs">
       <DependentUpon>Zon12.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Zon13.xaml.cs">
+      <DependentUpon>Zon13.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -170,6 +173,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Zon12.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Zon13.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

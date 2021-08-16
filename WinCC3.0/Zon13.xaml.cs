@@ -19,8 +19,8 @@ namespace WinCC3._0 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Zon12 : Page {
-        public Zon12() {
+    public sealed partial class Zon13 : Page {
+        public Zon13() {
             this.InitializeComponent();
         }
 
@@ -58,8 +58,16 @@ namespace WinCC3._0 {
             this.Frame.Navigate(typeof(MainPage));
         }
 
-        private void zon13_Click(object sender, RoutedEventArgs e) {
-            this.Frame.Navigate(typeof(Zon13));
+        private void zon14_Click(object sender, RoutedEventArgs e) {
+
+        }
+
+        private void zon15_Click(object sender, RoutedEventArgs e) {
+
+        }
+
+        private void zon12_Click(object sender, RoutedEventArgs e) {
+            this.Frame.Navigate(typeof(Zon12));
         }
     }
 }

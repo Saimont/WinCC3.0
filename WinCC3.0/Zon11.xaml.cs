@@ -61,7 +61,7 @@ namespace WinCC3._0
         }
 
         private void zon13_Click(object sender, RoutedEventArgs e) {
-            //TODO Navigate to zone 13
+            this.Frame.Navigate(typeof(Zon13));
         }
 
         private void zon14_Click(object sender, RoutedEventArgs e) {
