@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yCJt1njGOxxUHGwXPchkqyvd6GtjMvqnxKMxFTQMgxP0KoL1sC6ZXSkKcDB+GqnWxZHIJJkY6LYvBSGyQvKl/w==",
+  "dgSpecHash": "Zif6ZxY8nCJhA2rTUqLDrCs73t3qmlXqRWiMPZXvwCRJKv0vrkOzD4EVJaP9mHQvnMQ90JHeGEl2bf/OdT/HLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\VisualStudioProjects\\WinCC3.0\\WinCC3.0\\WinCC3.0.csproj",
+  "projectFilePath": "C:\\Users\\Dennis Persson\\Desktop\\WinCC3.0\\WinCC3.0\\WinCC3.0.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",
@@ -27,7 +27,7 @@
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.net.native.sharedlibrary\\2.2.8-rel-29722-00\\runtime.win10-x86.microsoft.net.native.sharedlibrary.2.2.8-rel-29722-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\\2.2.12\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.12\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\sharp7\\1.1.79\\sharp7.1.1.79.nupkg.sha512"
+    "C:\\Users\\Dennis Persson\\.nuget\\packages\\sharp7\\1.1.79\\sharp7.1.1.79.nupkg.sha512"
   ],
   "logs": []
 }

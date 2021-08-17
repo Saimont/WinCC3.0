@@ -2,6 +2,7 @@
 .vs/
 WinCC3.0/bin/
 bin-int/
+WinCC3.0/obj/
 
 # Files
 *.user

@@ -107,3 +107,23 @@ C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon
 C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon13.xaml
 C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon13.xbf
 C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\bin\x86\Debug\Zon13.xbf
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\bin\x86\Debug\PositionClickedPopup.xbf
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\bin\x86\Debug\Zon12.xbf
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\bin\x86\Debug\Zon13.xbf
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\obj\x86\Debug\PositionClickedPopup.g.i.cs
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\obj\x86\Debug\PositionClickedPopup.g.cs
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon12.g.i.cs
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon12.g.cs
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon13.g.i.cs
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon13.g.cs
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\obj\x86\Debug\PositionClickedPopup.xaml
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon12.xaml
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon13.xaml
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\obj\x86\Debug\PositionClickedPopup.xbf
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon12.xbf
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon13.xbf
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon14.g.i.cs
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon14.g.cs
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon14.xaml
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\obj\x86\Debug\Zon14.xbf
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\bin\x86\Debug\Zon14.xbf
