@@ -1,1 +1,1 @@
-C:\Users\Lenovo\Desktop\VisualStudioProjects\WinCC3.0\WinCC3.0\WinCC3.0.csproj;x86
+C:\Users\Dennis Persson\Desktop\WinCC3.0\WinCC3.0\WinCC3.0.csproj;x86
