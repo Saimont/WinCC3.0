@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dennis Persson\\Desktop\\WinCC3.0\\WinCC3.0\\WinCC3.0.csproj": {}
+    "C:\\Users\\Lenovo\\Desktop\\VisualStudioProjects\\WinCC3.0\\WinCC3.0\\WinCC3.0.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dennis Persson\\Desktop\\WinCC3.0\\WinCC3.0\\WinCC3.0.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\VisualStudioProjects\\WinCC3.0\\WinCC3.0\\WinCC3.0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dennis Persson\\Desktop\\WinCC3.0\\WinCC3.0\\WinCC3.0.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\VisualStudioProjects\\WinCC3.0\\WinCC3.0\\WinCC3.0.csproj",
         "projectName": "WinCC3.0",
-        "projectPath": "C:\\Users\\Dennis Persson\\Desktop\\WinCC3.0\\WinCC3.0\\WinCC3.0.csproj",
-        "packagesPath": "C:\\Users\\Dennis Persson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dennis Persson\\Desktop\\WinCC3.0\\WinCC3.0\\obj\\",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\VisualStudioProjects\\WinCC3.0\\WinCC3.0\\WinCC3.0.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\VisualStudioProjects\\WinCC3.0\\WinCC3.0\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dennis Persson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,7 +28,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Dennis Persson\\Downloads": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "uap10.0.17763": {
